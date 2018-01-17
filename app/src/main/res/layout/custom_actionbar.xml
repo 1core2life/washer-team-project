@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_alignParentLeft="true"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:text="세탁기 예약 In KHU"
+            android:id="@+id/title"
+            android:textSize="20sp"
+            android:textColor="#DC143C"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <ImageButton
+            android:id="@+id/btnHistory"
+            android:layout_alignParentRight="true"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/ic_launcher" />
+
+</RelativeLayout>
